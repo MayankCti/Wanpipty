@@ -1,0 +1,203 @@
+@media screen and (max-width: 1500px) {
+  .ct_padd_inline_212 {
+    padding-inline: 150px;
+  }
+  .ct_login_right_bg {
+    padding-inline: 30px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .ct_padd_inline_212 {
+    padding-inline: 100px;
+  }
+  .ct_fs_60 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  section.ct_hero_banner video {
+    height: 731px;
+  }
+  .ct_hero_banner {
+    height: calc(100vh - 100px);
+  }
+  .ct_login_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    height: 100vh;
+    overflow-y: auto;
+    padding-top: 150px;
+  }
+  .ct_responsive_img_w_50 {
+    width: 60px !important;
+  }
+  .ct_reverse_row_res {
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 991px) {
+  .ct_hero_banner {
+    height: calc(100vh - 75px);
+  }
+  .ct_dashboard_inner {
+    height: calc(100vh - 130px);
+  }
+  .ct_today_win_card {
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+  }
+  .ct_today_win_card img {
+    max-width: 500px;
+    margin-left: 13px;
+  }
+  .ct_flex_wrap_md {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .ct_faq_cnt:after {
+    display: none;
+  }
+  .ct_padd_inline_212 {
+    padding-inline: 50px;
+  }
+  .ct_desk_none {
+    display: block;
+  }
+  .ct_mob_none {
+    display: none;
+  }
+  .ct_dash_sidebar {
+    height: calc(100vh - 121px);
+    padding-top: 121px;
+  }
+  .ct_dashboard_inner {
+    margin-top: 130px;
+  }
+  section.ct_hero_banner video {
+    height: 757px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ct_fs_60 {
+    font-size: 45px;
+  }
+  .ct_fs_24 {
+    font-size: 20px;
+  }
+  .ct_fs_35 {
+    font-size: 24px;
+  }
+  .ct_login_inner_main {
+    display: grid;
+    grid-template-columns: 100%;
+    align-items: center;
+    height: 100vh;
+  }
+  .ct_login_right_bg {
+    display: none;
+  }
+  .ct_admin_logo img {
+    width: 100px;
+  }
+  .ct_admin_head_center h2 {
+    font-size: 20px;
+  }
+  .ct_chat_box_main,
+  .ct_chat_icon {
+    right: 15px;
+  }
+  .ct_add_mony_outline_bg {
+    padding-inline: 15px;
+  }
+
+  .ct_my_wallet_bg {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .ct_dash_sidebar {
+    height: calc(100vh - 117px);
+    /* margin-top: 117px; */
+    z-index: 9;
+  }
+  .ct_mob_block {
+    display: block;
+    margin-left: 0px !important;
+    margin-top: 10px;
+  }
+  .ct_dash_sidebar {
+    left: -100%;
+  }
+  .ct_dashboard_right_cnt {
+    margin-left: 0px;
+    width: 100%;
+  }
+  .ct_user_profile_head h6 {
+    font-size: 14px;
+  }
+  .ct_user_profile_head p {
+    font-size: 12px;
+  }
+  /* .ct_dashboard_inner.ct_show_sidebar .ct_dashboard_right_cnt{
+  margin-left: 95px;
+  width: calc(100vh - 95px);
+} */
+  .ct_dash_sidebar.ct_show_sidebar {
+    left: 0px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .ct_fs_60 {
+    font-size: 35px;
+  }
+  .ct_fs_24 {
+    font-size: 18px;
+  }
+  .ct_padd_inline_212 {
+    padding-inline: 30px;
+  }
+  /* .ct_bet_time_card_active h4,
+  .ct_bet_time_card h4 {
+    font-size: 18px !important;
+  } */
+  .ct_yellow_btn {
+    font-size: 14px;
+    padding-inline: 10px;
+  }
+  .ct_login_left {
+    padding-top: 30px;
+  }
+
+  .ct_admin_header {
+    padding-inline: 15px;
+  }
+}
+
+@media screen and (max-width: 559px) {
+  .ct_dash_sidebar {
+    height: calc(100vh - 110px);
+    /* margin-top: 110px; */
+  }
+  .ct_admin_head_center h2 {
+    font-size: 15px;
+  }
+  .ct_small_box_154 img,
+  .ct_small_box_154 {
+    width: 105px;
+    height: 105px;
+    object-fit: cover;
+  }
+  .ct_small_box_154 h4 {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 476px) {
+  .ct_dash_sidebar {
+    height: calc(100vh - 35px);
+    margin-top: 35px;
+  }
+}
